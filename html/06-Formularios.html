@@ -1,0 +1,91 @@
+<!DOCTYPE html> <!-- padrão html 5 -->
+<html lang="pt_BR">
+	<head>
+	<title>Formulário Fale Conosco</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device=width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="./css/style.css">
+				
+	</head>
+	<body>
+		<header>
+			<h2>Curso Front-end - HTML</h2>
+		</header>
+
+		<section>
+			<nav>
+				<ul>
+					<li><a href="05-Layouts.html">Home</a></li>
+					<li><a href="#Sobre">Sobre</a></li>
+					<li><a href="#Contato">Contato</a></li>
+
+				</ul>
+			</nav>
+
+			<article>
+
+				<h1>Contato</h1>
+				<p>Preencha os campos abaixo</p>
+
+				<form method="post">
+
+					<div>				
+					<label for="nome">Nome</label><br>
+					<input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+					</div>
+
+					<div>
+					<label for="email">E-mail</label><br>
+					<input type="email" name="email" id="email" placeholder="Digite seu e-mail">
+					</div>
+
+					<div>
+						<label for="mensagem">Mensagem</label><br>
+						<textarea name="mensagem" id="mensagem" rows="5"></textarea>
+					</div>
+
+					<div>
+						<p>
+						<label>Quais linguagens você prefere?</label>
+						<input type="radio" name="linguagens" valeu="html"> HTML
+						<input type="radio" name="linguagens" value="css"> CSS
+						<input type="radio" name="linguagens" value="javascript"> JavaScript</p>
+					</div>
+
+					<div>
+						<p>
+						<label>Quais linguagens você conhece?</label>
+						<input type="checkbox" name="linguagens" value="html"> HTML
+						<input type="checkbox" name="linguagens" value="css"> CSS
+						<input type="checkbox" name="linguagens" value="javascript"> JavaScript</p>
+					</div>
+
+					<div>
+						<label>Qual a sua cor favorita?</label>
+						<select>
+							<option value="vermelho" selected>Vermelho</option>
+							<option value="preto">Preto</option>
+							<option value="branco">Branco</option>
+						</select>						
+					</div>
+
+
+					<div>
+						<input type="submit">
+					</div>
+
+					
+
+				</form>				
+
+			</article>
+
+		</section>
+
+		<footer>
+			<p>Desenvolvido por RaphaelFn</p>
+		</footer>
+
+		
+	</body>
+</html>

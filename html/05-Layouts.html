@@ -1,0 +1,106 @@
+<!DOCTYPE html> <!-- padrão html 5 -->
+<html lang="pt_BR">
+	<head>
+	<title>HTML - Layouts</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device=width, initial-scale=1">
+		<style>
+			* {
+				box-sizing: border-box;
+			}
+
+			body {
+				font-family: Arial, Helvetica, sans-serif;
+			}
+
+			/* Style the header */
+			header {
+				background-color: #666;
+				padding: 30px;
+				text-align: center;
+				font-size: 35px;
+				color: white;
+			}
+
+			/* Create two columns/boxes that floats next to each other */
+			nav {
+				float: left;
+				width: 30%;
+
+				background: #ccc;
+				padding: 20px;
+				}
+
+				/* Style the list inside the menu*/
+				nav ul{
+					list-style-type: none;
+					padding: 0;
+				}
+
+				article {
+					float: left;
+					padding: 20px;
+					width: 70%;
+					background-color: #f1f1f1;
+				}
+
+				/*clear floats after the columns*/
+				section :: after {
+					background: #ccc;
+					content: "";
+					display: table;
+					clear: both;
+				}
+
+				/* Style the footer */
+				footer {
+					background-color: #777;
+					padding: 10px;
+					text-align: center;
+					color: white;					
+				}
+
+				/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+				@media (max-width: 600px) {
+					nav, article {
+						width: 100%;
+						height: auto;
+					}
+				}
+		</style>
+
+	</head>
+	<body>
+		<header>
+			<h2>Curso Front-end - HTML</h2>
+		</header>
+
+		<section>
+			<nav>
+				<ul>
+					<li><a href="#Início">Home</a></li>
+					<li><a href="#Sobre">Sobre</a></li>
+					<li><a href="./06-Formularios.html">Contato</a></li>
+
+				</ul>
+			</nav>
+
+			<article>
+
+				<h1>Título Artigo</h1>
+
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum nisi eget sodales pulvinar. Duis sed quam nulla. Nam ornare ut dolor eu malesuada. Nulla feugiat, enim vitae molestie dapibus, arcu odio varius mauris, non ornare augue nibh nec ex. Morbi suscipit enim consequat eleifend volutpat. Praesent sagittis hendrerit arcu vitae dictum. Vestibulum quis mauris eleifend, tempus tortor quis, rutrum tortor. Maecenas erat elit, ornare sit amet congue eget, luctus eget augue. Suspendisse volutpat nisl nec purus eleifend ultrices. Proin et tincidunt orci. Nulla eget enim vel leo vehicula accumsan. Duis ornare ipsum ac ligula consectetur, pellentesque pellentesque nunc pretium. Mauris congue a nibh in ultrices. Cras vehicula tellus a tempor tincidunt.</p>
+
+				<p>Fusce pretium purus ac auctor pellentesque. Morbi suscipit mi non nulla hendrerit facilisis. Maecenas faucibus imperdiet quam, vulputate condimentum ante ultricies ac. Nam efficitur nibh vel lacus vehicula feugiat id a lectus. Ut vel bibendum tellus. Maecenas id efficitur massa. Aenean a leo felis. Donec in elementum risus.</p>
+
+			</article>
+
+		</section>
+
+		<footer>
+			<p>Desenvolvido por RaphaelFn</p>
+		</footer>
+
+		
+	</body>
+</html>

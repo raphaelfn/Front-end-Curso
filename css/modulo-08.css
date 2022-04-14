@@ -1,0 +1,145 @@
+
+@import 'tabelas.css';
+
+/*
+	Herança
+	1. Sobreposição/Sobreescreve
+	2. Aplica o último estilo definido
+	3. Prioriza estilos específicos (com seletores mais próximos)
+	4. Se aplica a todas as  propriedades.
+
+*/
+
+html {
+	font-family: sans-serif;
+	color: #333333;
+}
+
+.width-100 {
+	width: 100vw;
+	padding: 20px 0;
+	height: 400px;
+}
+
+a {
+	color: #555555;
+	text-decoration: none;  /* O padrão usual é underline */
+}
+
+header p {
+	color: #fff;
+	font-size: 1,5rem;
+}
+
+/*
+	Combinadores
+
+	(espaço) seletor descendente.
+	(>) combinador de seletores filhos.
+	(+) combinador de elementos irmãos adjacentes/que vem na sequência.
+	(~) combinador de elementos irmãos geral/após elemento de referência.
+*/
+
+header h2 {
+	font-weight: 100;
+}
+
+header > h2 {
+	font-weight: 600;
+}
+
+h2 + p {
+	background: #FF0;
+	color: #333;
+}
+
+h2 + h5 {
+	font-size: 1.2rem;
+}
+
+div ~ p {
+	text-transform: uppercase;
+}
+
+/* Pseudo-elementos : */
+
+a {
+	color: #555555;
+	text-decoration: none; /* o padrão é undeline */
+	font-size: 1.5rem;
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+a:visited {
+	color: #f00;
+}
+
+a:active {
+	color: #096;
+}
+
+a:hover {
+	color: #009;
+	background: #eee;
+}
+
+h2:hover {
+	color: #888 ;
+}
+
+/*
+	Tipografia
+*/
+
+html {
+	font-family: sans-serif;
+}
+
+h1, h2, h3 {
+	font-weight: 400;
+	font-family: 'Redressed', cursive;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+
+p {
+	font-weight: normal;
+	font-size: 1.4rem;
+}
+
+li {
+	letter-spacing: 0.1rem;
+	font-family: sans-serif;
+	line-height: 2.0rem;
+}
+
+h3 {
+	font: italic bold 1.2rem/2 sans-serif;
+}
+
+/* Cores */
+
+body {
+	background: url(../images/pattern.png);
+}
+
+section {
+	background: rgba(255, 255, 255, 0.75);
+}
+
+p{
+	color: #000000;
+}
+
+footer {
+	background: #000000;
+}
+
+footer p {
+	color: #CF0024;
+}
+
+.navegacao {
+	padding: 0,5rem;
+}

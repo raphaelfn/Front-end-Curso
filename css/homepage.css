@@ -1,0 +1,170 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+      margin: 0;
+      padding: 0;
+      font-family: serif;
+      font-size: 62.5%; /* equivalente a 10px */
+  }
+  
+  body {
+      background-image: url(../images/pattern.png);
+  }
+
+  h1 {
+      font-size: 2rem;
+  }
+  
+  h2 {
+      font-size: 1.8rem;
+  }
+  
+  h1, h2, p, li {
+      font-family: Arial, Helvetica, sans-serif;
+      color: #454545;
+  }
+  
+  a {
+      color: #336;
+      text-decoration: none;
+  }
+     
+  ul {
+      font-size: 20px;
+  }
+  
+  ul li {
+      font-size: 0.8em; /* equivalente a 16px */
+      font-size: 1.6rem; /* equivalente a 16px */
+      width: 80%;
+      height: 3rem; /* equivalente a 30px */
+  }
+  
+  p {
+      font-size: 1.6rem; /* equivalente a 16px */
+  }
+    
+  h2 {
+      font-size: 2rem; /* equivalente a 20px */
+      height: 3rem;
+      color: white;
+  }
+  
+  .navegacao {
+      
+  }
+  
+  .navegacao li {
+      border-bottom: 1px solid #ccc;
+      display: block;
+      padding: 1rem 1rem 2rem 1rem;
+      line-height: 1.2rem;
+  }
+  
+  .navegacao a {
+      color: #66F;
+      display: block;
+      margin-bottom: .5rem;
+      width: 100%;
+  }
+      
+  header {
+    background-color: #000;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+  }
+
+  header p {
+      color: #000;
+      font-size: 1,5rem;
+  }
+
+  header h2 {
+      font-weight: 100;
+  }
+
+  header > h2 {
+      font-weight: 600;
+  }
+
+  header p {
+      background: #FF0;
+  }
+
+  h2 + h5 {
+      font-size: 1.2rem;
+  }
+  
+  nav {
+    float: left;
+    width: 30%;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  article {
+    float: left;
+    padding: 20px;
+    width: 70%;
+  }
+
+  section {
+      background: rgba(255, 255, 255, 0.75);
+  }
+  
+  section::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  footer {
+    margin: 10px;
+    background-color: #000;
+    padding: 10px;
+    text-align: center;
+    
+  }
+
+  footer p {
+      color: #cf0024;
+  }
+  
+  @media (max-width: 600px) {
+    nav, article {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+  h3 {
+      padding: 10px;
+      font-size: 1.8rem;
+  }
+
+  .paragrafo {
+      margin-top: 1.8rem;
+  }
+
+  #café {
+    background-color: brown;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+#café img {
+    width: 100%;
+}
