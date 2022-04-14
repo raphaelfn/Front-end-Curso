@@ -19,10 +19,16 @@
  ## Criar conta no Github
 
  ## Clonar o Projeto
+ git clone https://github.com/raphaelfn/Front-end-Curso.git
 
  ## Commits
  Informação de alteração
  - após testado todo seu código
+ - git add *
+ - git commit -m "mensagem"
+ - git push (enviar alterações para o repositório)
+ - git pull (puxar / trazer alterações do GitHub para minha máquina)
+ 
 
  ## GitFlow
  Fluxo do Git
