@@ -47,3 +47,18 @@
 
 ### Merge
 Mescla de branchs (versões)
+Você pode precisar resolver conflitos manualmente
+
+git merge main
+
+
+### Pull Requests
+Mescla de branchs no repositório
+Permite o code review
+O repositório resolve os conflitos automaticamente
+
+
+### Configura o GitFLow
+git flow init
+git flow feature start {nome-da-feature}
+
