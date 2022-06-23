@@ -139,3 +139,8 @@ footer small {
     font-size: 80%;
     display: block;
 }
+
+.cog-branding__powered {
+    visibility: hidden !important;
+
+}
