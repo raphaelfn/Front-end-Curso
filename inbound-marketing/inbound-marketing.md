@@ -40,3 +40,17 @@
 Uniform Resource Locator (Localizador Uniforme de Recursos)
 
 - URL Amigável: humanos e mecanismos de busca.
+
+
+### Exercício
+Fluxo completo
+Objetivo: Capturar o máximo de leads possível.
+
+1. Criar Landing Page
+2. Criar Newsletter
+3. Publicar projeto em um servidor web: https://app.infinityfree.net/   -  ( http://criandosites.epizy.com/ )
+4. Criar URL amigável para compartilhamento: https://bityli.com/
+5. Convidar pessoas nas redes sociais para sua landing page (pagina de destino / pouso)
+6. Enviar Newsletter para lista de contatos com link para a pagina do post: https://putsmail.com
+7. Commitar código no seu repositório do GitHub
+8. Enviar links para avaliação na plataforma da EBAC
