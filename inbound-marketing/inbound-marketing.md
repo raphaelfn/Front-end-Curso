@@ -36,3 +36,7 @@
 - Git - histórico de evolução (commits detalhados)
 
 
+### URL
+Uniform Resource Locator (Localizador Uniforme de Recursos)
+
+- URL Amigável: humanos e mecanismos de busca.
