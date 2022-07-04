@@ -95,3 +95,43 @@
 
  #### Após concluir a instalação
  Rodar em um novo terminal: node -v
+
+
+ ## Variáveis
+ São utilizadas para referenciar espaço na memória
+
+ - var
+ - const (fica com valor imutável, dentro do contexto do programa que esta sendo escrito)
+ - let
+ - string (tipo de variável para conjunto de caracteres)
+ - tipagem: número ou string
+ - array: conjunto de valores
+
+ ## Operadores
+- Soma +
+- Subtração -
+- Multiplicação *
+- Divisão /
+- Módulo (resto de divisão) %
+- Math: random(), round(), sqrt().
+
+* Atribuição 
+a = b
+a += b
+a -= b
+a *= b
+a /= b
+a %= b
+Adiciona 1 ++
+Subtrai 1 --
+
+* Operadores de Comparação / Lógicos
+- Igual == ou ===
+- Diferente !=
+- Maior que >
+- Maior ou igual >=
+- Menor que <
+- Menor ou igual <=
+
+https://developer.mozilla.org/pt-Br/docs/web/JavaScript/Guide/Expressions_and_operators
+
