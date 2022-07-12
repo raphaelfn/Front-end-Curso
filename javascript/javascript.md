@@ -108,9 +108,6 @@
  - array: conjunto de valores
 
  ## Operadores
-
-
- 
 - Soma +
 - Subtração -
 - Multiplicação *
