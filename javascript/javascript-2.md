@@ -188,6 +188,8 @@ functions calculoMedia( notas ) {
     return media;
 }
 
+let media; // escopo global
+
 function aprovacao( notas ) {
 
 let media = calcularMedia( notas ); // escopo da função
