@@ -62,3 +62,10 @@ button:hover {
 .erro {
     border-color: #f00;
 }
+
+.span-required {
+    font-size: 10px;
+    margin: 3px 0 0 1px;
+    color: var(--color-red);
+    display: none;
+}

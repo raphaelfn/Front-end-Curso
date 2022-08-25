@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="../javascript/css/style.css">
     <title>Javascript</title>
 </head>
 <body>
@@ -15,22 +15,29 @@
 
         <form id="formulario-02">
             <h2>Faça seu cadastro</h2>
-            <input type="text" placeholder="digite seu nome" class="obrigatorio" name="nome">
-            <input type="text" placeholder="digite seu email" class="email" name="email">
-            <input type="text" placeholder="digite seu telefone" class="" name="telefone">
-            <input type="text" placeholder="digite seu Cep" class="numerico" name="Cep">
-            <input type="text" placeholder="digite sua cidade" class="obrigatorio" name="cidade">
-            <input type="text" placeholder="digite sua UF" class="" name="uf">        
+            <input type="text" placeholder="digite seu nome" class="inputs required" oninput="nomeValido()" name="nome">
+            <span class="span-required">Mínimo de 3 caracteres</span>
+
+            <input type="text" placeholder="digite seu email" class="inputs required" oninput="emailValidate()" name="email">
+            <span class="span-required">Digite um email válido</span>
+
+            <input type="text" placeholder="digite seu telefone" class=" " name="telefone">
+            
+            <input type="text" placeholder="digite seu cep" class="inputs required" oninput="cepValidate()" name="cep">
+            <span class="span-required">Preencha corretamente</span>
+
+            <input type="text" placeholder="digite sua cidade" class="inputs required" oninput="cidadeValida()" name="cidade">
+            <span class="span-required">Preenchimento obrigatório</span>
+
+            <input type="text" placeholder="digite sua uf" class="inputs required" oninput="ufvalidate()" name="uf"> 
+            <span class="span-required">Obrigatório 2 caracteres</span>
+
             <button type="submit">Enviar</button>
         </form>
 
-        <div id="resultado">
-            
-        </div>
-
     </div>
 
-    <script type="text/javascript" src="./js/script.js"></script>
+    <script type="text/javascript" src="./js/formulario-02.js"></script>
     
 </body>
 </html>
